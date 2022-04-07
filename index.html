@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item logo">
+        <img src="airplane.png" width="150" />
+      </div>
+      <div class="item header">
+        <h1>Header</h1>
+      </div>
+      <div class="item navbar navbar-wrapper">
+        <button class="navbar-home p-button">Home</button>
+        <button class="navbar-contact p-button">Contact</button>
+        <button class="navbar-login p-button">Login</button>
+      </div>
+      <div class="item leftpanel">
+        <h3>LeftPanel</h3>
+      </div>
+      <div class="item main">
+        <h3>MainMenu</h3>
+        <div class="main-container">
+          <div class="first p-item text-container">
+            <zero-md
+              class="p-item text-item-1"
+              src="./markdown/MendixSource.md"
+            ></zero-md>
+            <zero-md
+              class="p-item text-item-2"
+              src="./markdown/infowebpage.md"
+            ></zero-md>
+            <p class="p-item text-item-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+          <button onclick="firstFunction()" class="second p-button">
+            First Subject
+          </button>
+          <button class="third p-button">2</button>
+          <button class="four p-button">3</button>
+          <button class="five p-button">4</button>
+          <button class="six p-button">5</button>
+          <button class="seven p-button">6</button>
+          <button class="eight p-button">7</button>
+          <button class="nine p-button">8</button>
+          <button class="ten p-button">9</button>
+        </div>
+      </div>
+      <div class="item footer">
+        <h2>Footer</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
